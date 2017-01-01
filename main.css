@@ -11,10 +11,7 @@ header{
 	min-height: 300px;
 	display: flex;
 	flex-direction: column;
-}
-
-#recent-work{
-	align-self: flex-end;
+	padding: 10px;
 }
 
 img {
@@ -26,41 +23,40 @@ img {
 }
 
 #main-container {
-	min-height: 600px;
+	min-height: 650px;
 	padding: 30px;
 	background-color: #FFD000;
 	display: flex;
 	align-items: center;
 }
 
-#project-container {
-	display: flex;
-	width: 100%;
+#recent-work{
+	margin-top: 125px;
 }
-
-.project {
+.project-container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 30%;
-	height: 200px;
-	margin: 20px;
+	width: 33%;
+	height: 300px;
 	border: 1px solid black;
 	border-radius: 5px;
+	margin: 5px;
+	padding: 5px;
 }
 
 .project-image{
-	display: flex;
 	border: 1px solid black;
 	height: 150px;
-	padding: 10px;
+	width: 90%;
+	margin: 5px;
 }
 
 button {
 	align-self: flex-end;
 }
 
-div.project:hover {
+div.project-container:hover {
 	background-color: #FFFFFF;
 }
 
