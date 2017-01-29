@@ -2,8 +2,12 @@
 <html>
 <head>
 	<title>Jamie Davella</title>
+  <!-- Normalize.css, a cross-browser reset file -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main.css">
 
 	<!-- links for inspiration:
 	https://gist.github.com/tholex/67eb8f86435ae77f3ad5#gistcomment-1835066
@@ -13,49 +17,62 @@
 </head>
 <body>
 
-	<header>
+	<section id="header-top">
 			<img src="portfolio-pic.jpg" alt="portfolio-pic">
-	</header>
+	</section>
 
-	<section id="about">
-		<h1>Hi, my name is Jamie Davella</h1>
-		<h3>I am new to programming</h3>
-		<h1 id="recent-work">Recent Work</h1>
+	<section id="middle-header">
+  		<h1 id="name">Jamie Davella</h1>
+  		<h3 id="about">
+        Passionate about using the tools of programming for civic tech,
+        public transportation & big data analysis.
+      </h3>
+      <nav id="bottom-header">
+        <ul id="bottom-header-ul">
+          <li>
+            <a href="#projects" class="bottom-header-a recent-work-a">Recent Work</a>
+          </li>
+          <li>-</li>
+          <li>
+            <a href="#reach-out" class="bottom-header-a reach-out-a">Reach Out</a>
+          </li>
+        </ul>
+      </nav>
 	</section>
 
 	<main id="main-container">
-		<div class="project-container">
-			<div class="project-image">
-				<button>Demo</button>
-				<button>Source</button>
-			</div>
-			<p>66 Days</p>
-			<p>Frontend, backend design</p>
-		</div>
+    <div id="projects">
+  		<div class="project-container">
+  			<div class="project-image">
+  				<button>Demo</button>
+  				<button>Source</button>
+  			</div>
+  			<p>66 Days</p>
+  			<p>Frontend, backend design</p>
+  		</div>
 
-		<div class="project-container">
-			<div class="project-image">
-				<button>Demo</button>
-				<button>Source</button>
-			</div>
-			<p>Project 2</p>
-			<p>Frontend, backend design</p>
+  		<div class="project-container">
+  			<div class="project-image">
+  				<button>Demo</button>
+  				<button>Source</button>
+  			</div>
+  			<p>Project 2</p>
+  			<p>Frontend, backend design</p>
+  		</div>
 
-		</div>
-
-		<div class="project-container">		
-			<div class="project-image">
-				<button>Demo</button>
-				<button>Source</button>
-			</div>
-			<p>Project 3</p>
-			<p>Frontend, backend design</p>
-
-		</div>
+  		<div class="project-container">
+  			<div class="project-image">
+  				<button>Demo</button>
+  				<button>Source</button>
+  			</div>
+  			<p>Project 3</p>
+  			<p>Frontend, backend design</p>
+  		</div>
+    </div>
 	</main>
 
 	<footer>
-		<h3>Reach Out</h3>
+		<h3 id="reach-out">Reach Out</h3>
 		<p>For general inquiry, email jamie.davella@gmail.com. You can find my code on <a href="https://github.com/davellaj">Github</a>. Check out my professional network on <a href="https://www.linkedin.com/in/jamie-davella-41109525">Linkedin</a></p>
 	</footer>
 </body>
