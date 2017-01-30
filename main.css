@@ -1,3 +1,4 @@
+/* shared styling */
 body{
 	font-size: 18px;
 	font-family: 'Quicksand', sans-serif;
@@ -35,6 +36,7 @@ a.down-arrow:hover {
 	color: #333338;
 }
 
+/* Top of the page */
 #top-header {
 	margin-top: 20px;
 	min-height: 200px;
@@ -44,7 +46,7 @@ a.down-arrow:hover {
 	justify-content: space-between;
 }
 
-img {
+#profile-pic {
   width: auto;
   max-width: 150px;
   height: auto;
@@ -95,6 +97,7 @@ margin: 20px 0px 0px 0px;
   margin-left: 10px;
 }
 
+/* Main Page Projects */
 #main-container {
 	min-height: 900px;
 	background-color: #FFD000;
@@ -127,7 +130,7 @@ margin: 20px 0px 0px 0px;
 .project-container {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	align-items: center;
 	width: 40%;
 	height: 600px;
 	border: 1px solid black;
@@ -136,10 +139,15 @@ margin: 20px 0px 0px 0px;
 }
 
 .project-image{
-	border: 1px solid black;
-	height: 300px;
-	width: 90%;
-	margin: 5px;
+	/*border: 1px solid red;*/
+	height: 70%;
+	width: 75%;
+}
+
+.project-pic {
+  width: 100%;
+  height: 100%;
+	border-radius: 5px;
 }
 
 button {
@@ -150,6 +158,7 @@ div.project-container:hover {
 	background-color: #FFFFFF;
 }
 
+/* Reach Out Section on the bottom of Page*/
 footer {
 	min-height: 100px;
 }
