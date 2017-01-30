@@ -3,10 +3,9 @@
 <head>
 	<title>Jamie Davella</title>
   <!-- Normalize.css, a cross-browser reset file -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+  <!--fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="main.css">
 
 	<!-- links for inspiration:
@@ -22,15 +21,15 @@
       <nav top-header-nav>
         <ul id="top-header-ul">
           <li><a href="" class="top-header-a">Home</a></li>
-          <li><a href="" class="top-header-a">About</a></li>
           <li><a href="" class="top-header-a">Resume</a></li>
+          <li><a href="" class="top-header-a">Bio</a></li>
         </ul>
       </nav>
 	</section>
 
 	<section id="middle-header">
-  		<h1 id="name">Jamie Davella</h1>
-  		<h3 id="about">
+  		<h1 class="title">Jamie Davella</h1>
+  		<h3 class="more-info">
         Passionate about using the tools of programming for civic tech,
         public transportation & big data analysis.
       </h3>
@@ -48,9 +47,10 @@
 	</section>
 
 	<main id="main-container">
-    <div id="scroll-down">
-      <a href="#projects" id="down-arrow">&#8964</a>
+    <div class="scroll-down">
+      <a href="#projects" class="down-arrow">&#8964</a>
     </div>
+
     <div id="projects">
   		<div class="project-container">
   			<div class="project-image">
@@ -70,20 +70,43 @@
   			<p>Frontend, backend design</p>
   		</div>
 
-  		<div class="project-container">
-  			<div class="project-image">
-  				<button>Demo</button>
-  				<button>Source</button>
-  			</div>
-  			<p>Project 3</p>
-  			<p>Frontend, backend design</p>
-  		</div>
+      <div id="project-navigator">
+        <div>
+          <a href="" class="project-slide"></a>
+        </div>
+        <div>
+          <a href="" class="project-slide"></a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <a href="#reach-out" class="down-arrow">&#8964</a>
     </div>
 	</main>
 
-	<footer>
-		<h3 id="reach-out">Reach Out</h3>
-		<p>For general inquiry, email jamie.davella@gmail.com. You can find my code on <a href="https://github.com/davellaj">Github</a>. Check out my professional network on <a href="https://www.linkedin.com/in/jamie-davella-41109525">Linkedin</a></p>
-	</footer>
+	<section id="reach-out">
+		<h3 class="title">Reach Out</h3>
+		<h3 class="more-info">
+      For general inquiry, email jamie.davella@gmail.com. You can find my code on <a href="https://github.com/davellaj">Github</a>. Check out my professional network on <a href="https://www.linkedin.com/in/jamie-davella-41109525">Linkedin</a>
+    </h3>
+	</section>
+  <footer>
+    <nav id="bottom-nav">
+      <ul id="bottom-nav-ul">
+        <li>
+          <a href="#top-header" class="top-header-a">Home</a>
+        </li>
+        <li>
+          <a href="#projects" class="top-header-a">Recent Work</a>
+        </li>
+        <li>
+          <a href="" class="top-header-a">Resume</a>
+        </li>
+        <li>
+          <a href="" class="top-header-a">Bio</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
 </body>
 </html>
