@@ -1,20 +1,57 @@
+/* shared styling */
 body{
-	font-size: 16px;
-	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-family: 'Quicksand', sans-serif;
+	/*color: #66666a;*/
+	color: black;
 }
-
-header{
-	min-height: 300px;
+a:link, a:visited {
+    color:  #99999A;
 }
-
-#about {
-	min-height: 300px;
+a:hover {
+	color: #333338;
+}
+.scroll-down {
+  min-height: 150px;
 	display: flex;
-	flex-direction: column;
-	padding: 10px;
+	justify-content: center;
+	align-items: center;
+}
+.down-arrow {
+  text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 50px;
+	width: 50px;
+	height: 50px;
+	font-weight: bold;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+a.down-arrow {
+	color: white;
+}
+a.down-arrow:hover {
+	color: #333338;
+}
+a.live, a.github {
+	color: black;
+}
+a.live:hover, a.github:hover {
+	color: #99999A;
+}
+/* Top of the page */
+#top-header {
+	margin-top: 20px;
+	min-height: 200px;
+	padding-left: 20%;
+  padding-right: 5%;
+	display: flex;
+	justify-content: space-between;
 }
 
-img {
+#profile-pic {
   width: auto;
   max-width: 150px;
   height: auto;
@@ -22,61 +59,148 @@ img {
   border-radius: 50%;
 }
 
-#main-container {
-	min-height: 650px;
-	padding: 30px;
-	background-color: #FFD000;
-	display: flex;
-	align-items: center;
+#top-header-ul {
+  list-style: none;
+  display: flex;
+	padding: 20px;
+}
+.top-header-a {
+	margin: 10px;
 }
 
-#recent-work{
-	margin-top: 125px;
-}
-.project-container {
+#middle-header {
+	min-height: 400px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 33%;
-	height: 300px;
-	border: 1px solid black;
+	padding-left: 20%;
+}
+
+.title {
+	font-size: 50px;
+	margin: 0px;
+}
+
+.more-info {
+font-size: 22px;
+max-width: 40%;
+margin: 20px 0px 0px 0px;
+}
+
+#bottom-header-ul {
+  list-style: none;
+  display: flex;
+	padding: 0px;
+}
+.bottom-header-a {
+  color:  #99999A;
+}
+.recent-work-a {
+	margin-right: 10px;
+}
+.reach-out-a {
+  margin-left: 10px;
+}
+
+/* Main Page Projects */
+#main-container {
+	min-height: 900px;
+	background-color: #FFD000;
+	width: 100%;
+}
+
+#projects {
+  display: flex;
+	flex-direction: column;
+	flex-flow: wrap;
+  align-content: center;
+  justify-content: center;
+	/*margin: 35px 0px 35px 0px;*/
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.project-container{
+  display: flex;
+	height: 650px;
+}
+.project-container-left {
+	display: flex;
+	align-items: center;
+	width: 100%;
+  justify-content: space-between;
+	border: 5px solid white;
 	border-radius: 5px;
-	margin: 5px;
-	padding: 5px;
+	margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.project-container-right {
+	display: flex;
+  flex-direction: row-reverse;
+	align-items: center;
+	width: 100%;
+  justify-content: space-between;
+	border: 5px solid white;
+	border-radius: 5px;
+	margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.description-box {
+  display: flex;
+  flex-direction: column;
+	border: 1px solid green;
+	background-color: white;
+	width: 600px;
+	height: 400px;
+	margin: 0px 40px 0px 40px;
+}
+
+.title-header {
+  display: flex;
+  justify-content: center;
+	align-items: center;
+}
+.project-title {
+  font-weight: bold;
+  margin-right: 20px;
+}
+.project-description, .project-language {
+  margin: 10px;
 }
 
 .project-image{
-	border: 1px solid black;
-	height: 150px;
-	width: 90%;
-	margin: 5px;
+  flex: 1;
+  border: 1px solid red;
 }
 
-button {
-	align-self: flex-end;
+.project-pic {
+  width: 350px;
+  height: 500px;
+  margin: 20px 40px 20px 40px;
+	border-radius: 5px;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
 }
 
-div.project-container:hover {
-	background-color: #FFFFFF;
-}
 
-
+/* Reach Out Section on the bottom of Page*/
 footer {
-	color: #99999A;
-	letter-spacing: 1px;
+	min-height: 100px;
+}
+#reach-out {
+	min-height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 20%;
 }
 
-footer h3 {
-	color: #333338;
-}
-
-footer a {
-	color: #66666a;
-	text-decoration: none;
-	border-bottom: 1px solid transparent;
-}
-
-footer a:hover {
-	color: #333338;
-	border-bottom: 1px solid #dddddf;
+#bottom-nav-ul {
+  list-style: none;
+  display: flex;
+	padding: 0px;
+  justify-content: center;
 }
