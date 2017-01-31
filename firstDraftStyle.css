@@ -12,11 +12,29 @@ a:hover {
 	color: #333338;
 }
 .scroll-down {
-	padding: 5%;
-	padding-left: 20%;
-
+  min-height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
+.down-arrow {
+  text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 50px;
+	width: 50px;
+	height: 50px;
+	font-weight: bold;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+a.down-arrow {
+	color: white;
+}
+a.down-arrow:hover {
+	color: #333338;
+}
 a.live, a.github {
 	color: black;
 }
@@ -77,6 +95,12 @@ margin: 20px 0px 0px 0px;
 .bottom-header-a {
   color:  #99999A;
 }
+.recent-work-a {
+	margin-right: 10px;
+}
+.reach-out-a {
+  margin-left: 10px;
+}
 
 /* Main Page Projects */
 #main-container {
@@ -86,18 +110,14 @@ margin: 20px 0px 0px 0px;
 }
 
 #projects {
-  margin: auto;
-	background-color: white;
-	width: 97%;
-	opacity: 0.95;
-  /*display: flex;
+  display: flex;
 	flex-direction: column;
 	flex-flow: wrap;
   align-content: center;
-  justify-content: center;*/
+  justify-content: center;
 	/*margin: 35px 0px 35px 0px;*/
-	/*padding-left: 10%;
-	padding-right: 10%;*/
+	padding-left: 10%;
+	padding-right: 10%;
 }
 .project-container{
   display: flex;
@@ -151,7 +171,6 @@ margin: 20px 0px 0px 0px;
 
 .project-image{
   flex: 1;
-  /*background-color: black;*/
   /*border: 1px solid red;*/
 }
 
@@ -167,7 +186,7 @@ margin: 20px 0px 0px 0px;
   transition-delay: initial;
 }
 .project-pic:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 /* Reach Out Section on the bottom of Page*/
@@ -188,23 +207,3 @@ footer {
 	padding: 0px;
   justify-content: center;
 }
-
-/*unused code*/
-/*.down-arrow {
-  text-decoration: none;
-	text-align: center;
-	line-height: 40px;
-	color: white;
-	font-size: 50px;
-	width: 50px;
-	height: 50px;
-	font-weight: bold;
-	border: 1px solid white;
-	border-radius: 50%;
-}
-a.down-arrow {
-	color: white;
-}
-a.down-arrow:hover {
-	color: #333338;
-}*/
