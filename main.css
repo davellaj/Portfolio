@@ -11,13 +11,7 @@ a:link, a:visited {
 a:hover {
 	color: #333338;
 }
-.scroll-down {
-  min-height: 200px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #FFD000;
-}
+
 .down-arrow {
   text-decoration: none;
 	text-align: center;
@@ -80,7 +74,7 @@ a.live:hover, a.github:hover {
 .title {
 	font-size: 50px;
 	margin: 0px;
-	font-weight: 400;
+	/*font-weight: 400;*/
 }
 
 .more-info {
@@ -98,7 +92,23 @@ font-weight: 300;
 .bottom-header-a {
   color:  #99999A;
 }
+.scroll-down {
+  min-height: 200px;
+	display: flex;
+  padding-left: 20%;
+	/*justify-content: center;*/
+	align-items: flex-end;
+	/*align-items: center;*/
+	background-color: #FFD000;
+}
 
+#title-recent-work {
+	margin-bottom: 30px;
+  margin-right: 10px;
+}
+#numbers {
+  margin-bottom: 70px;
+}
 /* Main Page Projects */
 #main-container {
   min-height: 100%;
@@ -116,12 +126,6 @@ font-weight: 300;
 	padding-right: 60px;
 }
 
-#title-recent-work {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	display: block;
-	margin: auto;
-}
 .project-container{
   display: flex;
 	align-items: center;
