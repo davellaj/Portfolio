@@ -144,6 +144,7 @@ font-weight: 300;
 .project-title {
   font-weight: bold;
   margin-right: 20px;
+  display: inline-block;
 }
 .project-description, .project-language {
   margin: 10px;
