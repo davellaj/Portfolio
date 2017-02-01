@@ -103,7 +103,6 @@ font-weight: 300;
 #main-container {
   min-height: 100%;
 	display: flex;
-	/*width: 100%;*/
 }
 
 #side-margin {
@@ -111,45 +110,29 @@ font-weight: 300;
   flex: 1;
 }
 #projects {
-  flex: 4;
+  flex: 6;
 	background-color: white;
-	padding-left: 5%;
-	padding-right: 5%;
+	margin-left: 70px;
+	padding-right: 60px;
+}
+
+#title-recent-work {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: block;
+	margin: auto;
 }
 .project-container{
   display: flex;
-	/*height: 650px;*/
-}
-.project-container-left {
-	display: flex;
 	align-items: center;
-	width: 100%;
-  justify-content: space-between;
-	border: 4px solid white;
-	border-radius: 5px;
-	margin-top: 35px;
-  margin-bottom: 20px;
-}
-
-.project-container-right {
-	display: flex;
-  flex-direction: row-reverse;
-	align-items: center;
-	width: 100%;
-  justify-content: space-between;
-	border: 4px solid white;
-	border-radius: 5px;
-	margin-top: 35px;
-  margin-bottom: 20px;
+	padding: 20px;
+	border: 1px solid green;
 }
 
 .description-box {
-  display: flex;
-  flex-direction: column;
-	/*border: 1px solid green;*/
-	/*background-color: white;*/
-	width: 600px;
-	/*height: 400px;*/
+	flex: 2;
+	border: 1px solid blue;
+	/*max-width: 600px;*/
 	margin: 0px 40px 0px 40px;
 }
 
@@ -166,16 +149,16 @@ font-weight: 300;
   margin: 10px;
 }
 
+img{
+	max-width: 100%;
+	height: auto;
+}
 .project-image{
   flex: 1;
-  /*border: 1px solid red;*/
+  border: 1px solid red;
 }
 
 .project-pic {
-  width: 350px;
-  height: 500px;
-  margin: 20px 40px 20px 40px;
-	border-radius: 5px;
   opacity: 1;
   transition-property: opacity;
   transition-duration: 0.3s;
