@@ -65,30 +65,27 @@ a.live:hover, a.github:hover {
 
 #middle-header {
 	min-height: 400px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	padding-left: 20%;
 }
 
 .title {
 	font-size: 50px;
-	margin: 0px;
+	margin-bottom: 20px;
+	margin-top: 70px;
 	/*font-weight: 400;*/
 }
 
 .more-info {
 font-size: 22px;
-max-width: 40%;
-margin: 20px 0px 0px 0px;
+max-width: 45%;
+margin: 0px 0px 10px 0px;
 font-weight: 300;
 }
 
-#bottom-header-ul {
-  list-style: none;
-  display: flex;
-	padding: 0px;
+#full-stack-developer {
+  margin-bottom: 10px;
 }
+
 .bottom-header-a {
   color:  #99999A;
 }
