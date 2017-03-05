@@ -94,7 +94,7 @@ font-weight: 300;
 .card {
     margin: 1em 1em 4em 1em;
     max-width: 800px;
-    border: 1px solid #eee;
+    border: 1px solid #99999A;
 }
 .img-container {
     position: relative;
@@ -155,6 +155,58 @@ img {
 	background: #FFD000;
 	color: #083045;
 }
+
+/* Reach Out Section on the bottom of Page*/
+footer {
+	min-height: 100px;
+}
+#reach-out {
+	min-height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 20%;
+}
+
+#bottom-nav-ul {
+  list-style: none;
+  display: flex;
+	padding: 0;
+  justify-content: center;
+}
+
+/*
+colors not used
+color: #66666a;
+*/
+
+/*
+unused code
+down-arrow:
+.down-arrow {
+  text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 50px;
+	width: 50px;
+	height: 50px;
+	font-weight: bold;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+a.down-arrow {
+	color: white;
+}
+a.down-arrow:hover {
+	color: #333338;
+}
+a.live, a.github {
+	color: black;
+}
+a.live:hover, a.github:hover {
+	color: #99999A;
+}*/
 
 /*old  styles below*/
 /*#main-container {
@@ -232,56 +284,4 @@ img{
 }
 .project-pic:hover {
   opacity: 0.5;
-}*/
-
-/* Reach Out Section on the bottom of Page*/
-footer {
-	min-height: 100px;
-}
-#reach-out {
-	min-height: 500px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding-left: 20%;
-}
-
-#bottom-nav-ul {
-  list-style: none;
-  display: flex;
-	padding: 0px;
-  justify-content: center;
-}
-
-/*
-colors not used
-color: #66666a;
-*/
-
-/*
-unused code
-down-arrow:
-.down-arrow {
-  text-decoration: none;
-	text-align: center;
-	line-height: 40px;
-	color: white;
-	font-size: 50px;
-	width: 50px;
-	height: 50px;
-	font-weight: bold;
-	border: 1px solid white;
-	border-radius: 50%;
-}
-a.down-arrow {
-	color: white;
-}
-a.down-arrow:hover {
-	color: #333338;
-}
-a.live, a.github {
-	color: black;
-}
-a.live:hover, a.github:hover {
-	color: #99999A;
 }*/
