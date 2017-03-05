@@ -2,40 +2,15 @@
 body{
 	font-size: 18px;
 	font-family: 'Quicksand', sans-serif;
-	/*color: #66666a;*/
-	color: black;
+  color: #083045;
 }
 a:link, a:visited {
     color:  #99999A;
 }
 a:hover {
-	color: #333338;
+	color: #083045;
 }
 
-.down-arrow {
-  text-decoration: none;
-	text-align: center;
-	line-height: 40px;
-	color: white;
-	font-size: 50px;
-	width: 50px;
-	height: 50px;
-	font-weight: bold;
-	border: 1px solid white;
-	border-radius: 50%;
-}
-a.down-arrow {
-	color: white;
-}
-a.down-arrow:hover {
-	color: #333338;
-}
-a.live, a.github {
-	color: black;
-}
-a.live:hover, a.github:hover {
-	color: #99999A;
-}
 /* Top of the page */
 #top-header {
 	margin-top: 20px;
@@ -64,8 +39,8 @@ a.live:hover, a.github:hover {
 }
 
 #middle-header {
-	min-height: 400px;
 	padding-left: 20%;
+	padding-bottom: 10%;
 }
 
 .title {
@@ -77,7 +52,7 @@ a.live:hover, a.github:hover {
 
 .more-info {
 font-size: 22px;
-max-width: 45%;
+width: 45%;
 margin: 0px 0px 10px 0px;
 font-weight: 300;
 }
@@ -86,16 +61,11 @@ font-weight: 300;
   margin-bottom: 10px;
 }
 
-.bottom-header-a {
-  color:  #99999A;
-}
 .scroll-down {
-  min-height: 200px;
+  min-height: 210px;
 	display: flex;
   padding-left: 20%;
-	/*justify-content: center;*/
 	align-items: flex-end;
-	/*align-items: center;*/
 	background-color: #FFD000;
 }
 
@@ -106,8 +76,88 @@ font-weight: 300;
 #numbers {
   margin-bottom: 70px;
 }
+
 /* Main Page Projects */
-#main-container {
+.projects-wrap {
+	padding-top: 3em;
+  flex: 1 1 100%;
+}
+.projects {
+  height: 100%;
+  flex: 1 1 100%;
+}
+.project {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 100%;
+}
+.card {
+    margin: 1em 1em 4em 1em;
+    max-width: 800px;
+    border: 1px solid #eee;
+}
+.img-container {
+    position: relative;
+    width: 100%;
+}
+.card-img-top {
+    width: 100%;
+    max-width: 800px;
+}
+img {
+    border-style: none;
+}
+.card-block {
+    padding: 2em;
+}
+.card-title {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.project-tech {
+    margin-top: 19px;
+}
+
+.tech-icon {
+    color: #083045;
+    font-size: 1.5em;
+}
+.card-text {
+    font-size: 22px;
+    font-weight: 300;
+}
+.card-footer {
+    display: flex;
+}
+.btn-light {
+    color: #083045;
+    font-size: 1.2em;
+    background: #ffffff;
+    padding: 5px 16px;
+    text-decoration: none;
+    border: none;
+    min-width: 134px;
+    border: 2px solid #083045;
+}
+.btn-dark {
+    color: #ffffff;
+    font-size: 1.2em;
+    background: #083045;
+    padding: 5px 16px;
+    text-decoration: none;
+    border: none;
+    min-width: 134px;
+    border: 2px solid #083045;
+}
+
+.button-link:hover {
+	background: #FFD000;
+	color: #083045;
+}
+
+/*old  styles below*/
+/*#main-container {
   min-height: 100%;
 	display: flex;
 }
@@ -130,7 +180,7 @@ font-weight: 300;
 	justify-content: space-around;
 	margin-top: 60px;
 	margin-bottom: 60px;
-	/*border: 1px solid green;*/
+	border: 1px solid green;
 }
 
 .project-container-imageR{
@@ -140,16 +190,16 @@ font-weight: 300;
 	justify-content: space-around;
 	margin-top: 60px;
 	margin-bottom: 60px;
-	/*border: 1px solid green;*/
+	border: 1px solid green;
 }
 
 .description-box {
-	/*flex: 2;*/
-	/*border: 1px solid blue;*/
+	flex: 2;
+	border: 1px solid blue;
 	max-width: 45%;
-}
+}*/
 
-.title-header {
+/*.title-header {
   display: flex;
   justify-content: center;
 	align-items: center;
@@ -163,17 +213,16 @@ font-weight: 300;
   margin: 10px;
 }
 
-/*img{
+img{
 	max-width: 100%;
 	height: auto;
-}*/
+}
 .project-image-link{
 	max-width: 45%;
-  /*border: 1px solid red;*/
-	/*flex: 1;*/
-}
+  border: 1px solid red;
+}*/
 
-.project-pic {
+/*.project-pic {
 	width: 100%;
   opacity: 1;
   transition-property: opacity;
@@ -183,7 +232,7 @@ font-weight: 300;
 }
 .project-pic:hover {
   opacity: 0.5;
-}
+}*/
 
 /* Reach Out Section on the bottom of Page*/
 footer {
@@ -203,3 +252,36 @@ footer {
 	padding: 0px;
   justify-content: center;
 }
+
+/*
+colors not used
+color: #66666a;
+*/
+
+/*
+unused code
+down-arrow:
+.down-arrow {
+  text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 50px;
+	width: 50px;
+	height: 50px;
+	font-weight: bold;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+a.down-arrow {
+	color: white;
+}
+a.down-arrow:hover {
+	color: #333338;
+}
+a.live, a.github {
+	color: black;
+}
+a.live:hover, a.github:hover {
+	color: #99999A;
+}*/
