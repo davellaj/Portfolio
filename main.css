@@ -1,14 +1,16 @@
 /* shared styling */
 body{
-	font-size: 18px;
+	font-size: 20px;
 	font-family: 'Quicksand', sans-serif;
   color: #083045;
 }
 a:link, a:visited {
     color:  #99999A;
+    text-decoration: none;
 }
 a:hover {
 	color: #083045;
+  text-decoration: underline;;
 }
 
 /* Top of the page */
