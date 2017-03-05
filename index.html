@@ -1,174 +1,218 @@
 <!DOCTYPE html>
 <html id="top-of-page">
+
 <head>
-	<title>Jamie Davella</title>
-  <!-- Normalize.css, a cross-browser reset file -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
-  <!--fonts  -->
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- links for inspiration:
+    <title>Jamie Davella</title>
+    <!-- Normalize.css, a cross-browser reset file -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+    <!--fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- links for inspiration:
 	https://gist.github.com/tholex/67eb8f86435ae77f3ad5#gistcomment-1835066
 	http://lamoulade.com/#!/home
 	http://www.socketstudios.com/
 	 -->
 </head>
+
 <body>
 
-<section id="top-header">
-		<img src="portfolio-pic.jpg" alt="portfolio-pic" id="profile-pic">
-    <nav top-header-nav>
-      <ul id="top-header-ul">
-        <li><a href="" class="top-header-a">Home</a></li>
-        <li><a href="" class="top-header-a">Resume</a></li>
-        <li><a href="" class="top-header-a">Bio</a></li>
-      </ul>
-    </nav>
-</section>
+  <section id="top-header">
+      <img src="./images/portfolio-pic.jpg" alt="portfolio-pic" id="profile-pic">
+      <nav top-header-nav>
+          <ul id="top-header-ul">
+              <li><a href="" class="top-header-a">Home</a></li>
+              <li><a href="" class="top-header-a">Resume</a></li>
+              <li><a href="" class="top-header-a">Bio</a></li>
+          </ul>
+      </nav>
+  </section>
 
-<section id="middle-header">
-		<h1 class="title">Jamie Davella</h1>
-		<h3 class="more-info">
-      Passionate about using the tools of programming for civic tech,
-      public transportation & big data analysis.
-    </h3>
-    <nav id="bottom-header">
-      <ul id="bottom-header-ul">
-        <li>
-          <a href="#reach-out" class="bottom-header-a reach-out-a">Reach Out</a>
-        </li>
-      </ul>
-    </nav>
-</section>
+  <section id="middle-header">
+      <h1 class="title">Jamie Davella</h1>
+      <h2 id="full-stack-developer">Full Stack Developer - NYC</h2>
+      <h3 class="more-info">
+    Passionate about using the tools of programming for civic tech,
+    public transportation & big data analysis.
+      </h3>
+      <a href="#reach-out" class="bottom-header-a reach-out-a">Reach Out</a>
+  </section>
 
-<div class="scroll-down">
-  <a href="#flashcards" class="down-arrow">&#8964</a>
-</div>
-
-<main id="main-container">
-<div id="side-margin"></div>
-<div id="projects">
-  <h1 class="title">Recent Work</h1>
-    <div class="project-container" id="flashcards">
-		<div class="project-container-left">
-  		<div class="project-image">
-        <a href="" class="project-image-link">
-          <img src="janeEyre.jpg" alt="flashCard-pic" class="project-pic">
-        </a>
-      </div>
-        <div class="description-box">
-          <div class="title-header">
-            <h2 class="project-title">Jane Eyre Flashcards</h2>
-            <a class="github" href=""><i class="fa fa-github" aria-hidden="true" style="font-size:48px;"></i></a>
-          </div>
-          <p class="project-description">Fullstack app that tests users on vocabulary words from the book Jane Eyre using a spaced-repetition algorithm. Users have their progress saved and can advance to different page sets and chapter levels until the book is complete.</p>
-          <p class="project-description">This project was completed over four days with my partner Nick Coleman using scrum principles and pair programming.</p>
-          <div class="project-language">
-            <h3>Frontend: React, Redux, Router, Thunk, Bootstrap</h3>
-            <h3>Backend: Node.js, Express, MongoDb, Mongoose, Authentication via Passport Google Oauth2</h3>
-            <h3>Testing: Mocha, Chai</h3>
-          </div>
-        </div>
-  		</div>
-    </div>
-
-    <div class="project-container" id="sixty-six-days">
-  		<div class="project-container-right">
-        <div class="project-image">
-          <a href="">
-            <img src="sixty-six-days.png" alt="goals-pic" class="project-pic">
-          </a>
-        </div>
-        <div class="description-box">
-          <div class="title-header">
-            <h2 class="project-title">Goal Accountability App</h2>
-            <a class="github" href=""><i class="fa fa-github" aria-hidden="true" style="font-size:48px;"></i></a>
-          </div>
-          <p class="project-description">Users create a list of goals where they can add, edit, delete and check off their goals. When a user checks off a goal they receive a sticker.</p>
-          <div class="project-language">
-            <h3>Frontend: React, Redux, Router, Thunk</h3>
-            <h3>Backend: Node.js, Express, MongoDb, Mongoose</h3>
-            <h3>Testing: Mocha, Chai</h3>
-          </div>
-        </div>
-		  </div>
-    </div>
-
-    <div class="project-container" id="citibikes">
-      <div class="project-container-left">
-        <div class="project-image">
-          <a href="">
-            <img src="janeEyre.jpg" alt="flashCard-pic" class="project-pic">
-          </a>
-        </div>
-        <div class="description-box">
-          <div class="title-header">
-            <h2 class="project-title">Citibike Station Computations</h2>
-            <a class="github" href=""><i class="fa fa-github" aria-hidden="true" style="font-size:48px;"></i></a>
-          </div>
-          <p class="project-description">Used Google Big Query, betaNYC and Citibike's API to test a hypothesis that the most popular Citibike Stations were the ones located farthest from the Metro</p>
-          <div class="project-language">
-            <h3>Language: Python</h3>
-            <h3>API's: Citibike, Google Big Query, betaNYC</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="project-container" id="capstone">
-      <div class="project-container-right">
-        <div class="project-image">
-          <a href="">
-            <img src="janeEyre.jpg" alt="flashCard-pic" class="project-pic">
-          </a>
-        </div>
-        <div class="description-box">
-          <div class="title-header">
-            <h2 class="project-title">Capstone</h2>
-            <a class="github" href=""><i class="fa fa-github" aria-hidden="true" style="font-size:48px;"></i></a>
-          </div>
-          <p class="project-description">totally awesome capstone project</p>
-          <div class="project-language">
-            <h3>Frontend: React, Redux, Router, Thunk</h3>
-            <h3>Backend: Node.js, Express, MongoDb, Mongoose, Oauth2</h3>
-            <h3>Testing: Mocha, Chai</h3>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="scroll-down">
+      <h2 id="title-recent-work" class="title">Recent Work</h2>
+      <p id="numbers">Dec '16 - Feb '17</p>
+      <!-- <a href="#flashcards" class="down-arrow">&#8964</a> -->
   </div>
 
-</main>
+  <main id="main-container">
+    <div class="projects-wrap">
+      <div class="projects">
+        <div id="project-1" class="project">
+          <div class="card">
+            <div class="image-contianer">
+              <a href="http://www.family-photos.online/#/" target="_blank">
+                <img class="card-img-top" src="./images/family-page.png" alt="flashCard-pic">
+              </a>
+            </div>
+            <div class="card-block">
+              <h2 class="card-title">Family-Page</h2>
+              <div class="project-tech">
+                <i class="devicon-javascript-plain tech-icon"></i>
+                <i class="devicon-react-original tech-icon"></i>
+                <i class="devicon-mongodb-plain tech-icon"></i>
+                <i class="devicon-nodejs-plain tech-icon"></i>
+              </div>
+              <h3 class="card-text">
+                Full-stack app designed to teach users German using a spaced-repetition algorithm.
+              </h3>
+              <div class="card-footer">
+                <div class="project-links">
+                <a href="https://github.com/numbergames/family-page" target="_blank">
+                  <button type="button" class="btn-light button-link">View Frontend Code</button>
+                </a>
+                <span>&nbsp&nbsp</span>
+                <a href="https://github.com/davellaj/family-page-server" target="_blank">
+                  <button type="button" class="btn-light button-link">View Backend Code</button>
+                </a>
+                <span>&nbsp&nbsp</span>
+                <a class="button-link" href="http://www.family-photos.online/#/" target="_blank">
+                  <button type="button" class="btn-dark button-link">View Project</button>
+                </a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-<div class="scroll-down">
-  <!-- <a href="#flashcards" class="down-arrow">&#8964</a> -->
-</div>
+        <div id="project-2" class="project">
+          <div class="card">
+            <div class="image-contianer">
+              <a href="https://germanrepitition.herokuapp.com/#/" target="_blank">
+                <img class="card-img-top" src="./images/germanFlashcards.png" alt="flashCard-pic">
+              </a>
+            </div>
+            <div class="card-block">
+              <h2 class="card-title">Learn German</h2>
+              <div class="project-tech">
+                <i class="devicon-javascript-plain tech-icon"></i>
+                <i class="devicon-react-original tech-icon"></i>
+                <i class="devicon-bootstrap-plain tech-icon"></i>
+                <i class="devicon-mongodb-plain tech-icon"></i>
+                <i class="devicon-nodejs-plain tech-icon"></i>
+              </div>
+              <h3 class="card-text">
+                Full-stack app designed to teach users German using a spaced-repetition algorithm.
+              </h3>
+              <div class="card-footer">
+                <div class="project-links">
+                <a href="https://github.com/davellaj/flashCardApp" target="_blank">
+                  <button type="button" class="btn-light button-link">View Code</button>
+                </a>
+                <span>&nbsp&nbsp</span>
+                <a class="button-link" href="https://germanrepitition.herokuapp.com/#/" target="_blank">
+                  <button type="button" class="btn-dark button-link">View Project</button>
+                </a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-<section id="reach-out">
-	<h2 class="title">Reach Out</h2>
-	<h3 class="more-info">
-    For general inquiry, please <a href="mailto:jamie.davella@gmail.com?Subject=Portfolio%20Query">Email</a> jamie.davella@gmail.com. You can find my code on <a href="https://github.com/davellaj">Github</a>. Check out my professional network on <a href="https://www.linkedin.com/in/jamie-davella-41109525">Linkedin</a>
-  </h3>
-</section>
-<footer>
-  <nav id="bottom-nav">
-    <ul id="bottom-nav-ul">
-      <li>
-        <a href="#top-of-page" class="top-header-a">Home</a>
-      </li>
-      <li>
-        <a href="#flashcards" class="top-header-a">Recent Work</a>
-      </li>
-      <li>
-        <a href="" class="top-header-a">Resume</a>
-      </li>
-      <li>
-        <a href="" class="top-header-a">Bio</a>
-      </li>
-    </ul>
-  </nav>
-</footer>
+        <div id="project-3" class="project">
+          <div class="card">
+            <div class="image-contianer">
+              <a href="https://germanrepitition.herokuapp.com/#/" target="_blank">
+                <img class="card-img-top" src="./images/citibikeResultsTerminal.png" alt="python-citibike">
+              </a>
+            </div>
+            <div class="card-block">
+              <h2 class="card-title">Citibike Computations</h2>
+              <div class="project-tech">
+                <i class="devicon-python-plain tech-icon"></i>
+              </div>
+              <h3 class="card-text">
+                Used Google Big Query, betaNYC and Citibike's API to test a hypothesis that the most popular Citibike Stations were located farthest from a metro station.
+              </h3>
+              <div class="card-footer">
+                <div class="project-links">
+                <a href="https://github.com/davellaj/citibike_data_analysis" target="_blank">
+                  <button type="button" class="btn-light button-link">View Code</button>
+                </a>
+                <span>&nbsp&nbsp</span>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="project-4" class="project">
+          <div class="card">
+            <div class="image-contianer">
+              <a href="https://sixty-six-days.herokuapp.com/" target="_blank">
+                <img class="card-img-top" src="./images/goalsScreenshot.png" alt="flashCard-pic">
+              </a>
+            </div>
+            <div class="card-block">
+              <h2 class="card-title">Goals Accountability App</h2>
+              <div class="project-tech">
+                <i class="devicon-javascript-plain tech-icon"></i>
+                <i class="devicon-react-original tech-icon"></i>
+                <i class="devicon-mongodb-plain tech-icon"></i>
+                <i class="devicon-nodejs-plain tech-icon"></i>
+              </div>
+              <h3 class="card-text">
+                Users create a list of goals where they can add, edit, delete and check off their goals. When a user checks off a goal they receive a sticker.
+              </h3>
+              <div class="card-footer">
+                <div class="project-links">
+                <a href="https://github.com/davellaj/sixty-six-days" target="_blank">
+                  <button type="button" class="btn-light button-link">View Code</button>
+                </a>
+                <span>&nbsp&nbsp</span>
+                <a class="button-link" href="https://sixty-six-days.herokuapp.com/" target="_blank">
+                  <button type="button" class="btn-dark button-link">View Project</button>
+                </a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="scroll-down">
+      <!-- <a href="#flashcards" class="down-arrow">&#8964</a> -->
+  </div>
+
+  <section id="reach-out">
+      <h2 class="title">Reach Out</h2>
+      <h3 class="more-info">
+  For general inquiry, please <a href="mailto:jamie.davella@gmail.com?Subject=Portfolio%20Query">Email</a> jamie.davella@gmail.com. You can find my code on <a href="https://github.com/davellaj">Github</a>. Check out my professional network on <a href="https://www.linkedin.com/in/jamie-davella-41109525">Linkedin</a>
+</h3>
+  </section>
+  <footer>
+      <nav id="bottom-nav">
+          <ul id="bottom-nav-ul">
+              <li>
+                  <a href="#top-of-page" class="top-header-a">Home</a>
+              </li>
+              <li>
+                  <a href="" class="top-header-a">Resume</a>
+              </li>
+              <li>
+                  <a href="" class="top-header-a">Bio</a>
+              </li>
+          </ul>
+      </nav>
+  </footer>
 
 </body>
+
 </html>
