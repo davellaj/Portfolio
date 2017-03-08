@@ -1,0 +1,59 @@
+body {
+  /*font-family: 'Quicksand', sans-serif;*/
+  color: #083045;
+  background: #ffffff;
+  font-size: 13px;
+  font-family: Georgia;
+  width: 100%;
+}
+
+a:link, a:visited {
+  color:  #ffffff;
+    text-decoration: none;
+}
+a:hover {
+	color: #FFD000;
+  text-decoration: underline;;
+}
+
+#outer {
+  width: 100%;
+}
+#inner {
+  width: 80%;
+  /*padding: 10px 80px;*/
+  margin: 80px auto;
+  border: solid #99999A;
+  border-width: 0 1px 2px 1px;
+}
+.hd-container {
+  background: #083045;
+  color: #ffffff;
+  padding: 3em 2.5em;
+}
+.hd-content-top {
+  padding-bottom: 1.5em;
+}
+.hd-name {
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+.hd-job-title {
+  font-size: 152%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+
+.hd-contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
