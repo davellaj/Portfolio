@@ -2,7 +2,7 @@ body {
   /*font-family: 'Quicksand', sans-serif;*/
   color: #083045;
   background: #ffffff;
-  font-size: 13px;
+  font-size: 18px;
   font-family: Georgia;
   width: 100%;
 }
@@ -56,4 +56,34 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+main {
+  margin-bottom: 2em;
+}
+.main-container {
+  /*width: 100%;*/
+  padding: 3em 2.5em;
+}
+.section-container {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  display: flex;
+}
+.section-l {
+  min-width: 12%;
+}
+.profile-objective {
+  font-style: italic;
+}
+.section-r {
+  padding-left: 8em;
+  padding-right: 8em;
+}
+.talent-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.talent {
+  width: 30%;
 }
