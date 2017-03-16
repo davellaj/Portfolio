@@ -53,9 +53,19 @@ a:hover {
 }
 
 .hd-contact-info {
-  display: flex;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 435px;
+    margin: 0 auto;
+    border: 1px solid #FFFFFF;
+  /*display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;*/
+}
+.fa-3x {
+    font-size: 3em;
 }
 main {
   margin-bottom: 2em;
