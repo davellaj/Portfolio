@@ -13,7 +13,7 @@ a:link, a:visited {
 }
 a:hover {
 	color: #FFD000;
-  text-decoration: underline;;
+  text-decoration: underline;
 }
 
 #outer {
@@ -29,13 +29,13 @@ a:hover {
 .hd-container {
   background: #083045;
   color: #ffffff;
-  padding: 3em 2.5em;
+  /*padding: 3em 2.5em;*/
 }
 .hd-content-top {
-  padding-bottom: 1.5em;
+  padding: 1.5em;
 }
 .hd-name {
-  font-size: 48px;
+  font-size: 3em;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: normal;
@@ -43,7 +43,7 @@ a:hover {
   padding: 0;
 }
 .hd-job-title {
-  font-size: 152%;
+  font-size: 1.5em;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: normal;
@@ -53,19 +53,36 @@ a:hover {
 }
 
 .hd-contact-info {
-    text-align: center;
-    border-radius: 5px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    width: 435px;
-    margin: 0 auto;
-    border: 1px solid #FFFFFF;
-  /*display: flex;
-  justify-content: space-between;
-  align-items: center;*/
+  display: flex;
+  justify-content: center;
+  padding: 1em 2em 3em 2em;
+  /*border: 1px solid #FFFFFF;*/
 }
 .fa-3x {
     font-size: 3em;
+}
+.fa {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.linkedin {
+  color: #0077B5;
+}
+.github {
+  color: #A3D39C;
+}
+.briefcase {
+  color: #A3D39C;
+}
+.phone {
+  color: #E45F56;
+}
+.envelope {
+  color: #E45F56;
 }
 main {
   margin-bottom: 2em;
@@ -96,4 +113,24 @@ main {
 }
 .talent {
   width: 30%;
+}
+
+/*media screens*/
+/* Extra small devices */
+@media(max-width:544px){
+  .fa-3x {
+      font-size: 2em;
+  }
+}
+/* Small devices */
+@media(min-width:544px){
+}
+/* Medium devices */
+@media(min-width:768px){
+}
+/* Large devices */
+@media(min-width:992px){
+}
+/* Exrta Large devices */
+@media(min-width:1200px){
 }
