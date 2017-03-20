@@ -18,24 +18,33 @@ a:hover {
 #top-header {
 	margin-top: 20px;
 	min-height: 200px;
-	padding-left: 20%;
   padding-right: 5%;
 	display: flex;
 	justify-content: space-between;
 }
 
 #profile-pic {
+  margin-left: 20%;
   width: auto;
   max-width: 150px;
   height: auto;
   max-height: 100px;
   border-radius: 50%;
+  display: inline;
+  z-index: 2;
+  position: fixed;
 }
-
+#top-header-nav {
+	position: fixed;
+  width: 100%;
+  background: #ffffff;
+}
 #top-header-ul {
   list-style: none;
   display: flex;
 	padding: 20px;
+  position: relative;
+  float: right;
 }
 .top-header-a {
 	margin: 10px;
@@ -76,13 +85,11 @@ font-weight: 300;
 	margin-bottom: 30px;
   margin-right: 10px;
 }
-#numbers {
-  margin-bottom: 70px;
-}
 
 /* Main Page Projects */
 .projects-wrap {
 	padding-top: 3em;
+  padding-left: 20%;
   flex: 1 1 100%;
 }
 .projects {
@@ -91,11 +98,10 @@ font-weight: 300;
 }
 .project {
   display: flex;
-  justify-content: center;
   flex: 1 1 100%;
 }
 .card {
-    margin: 1em 1em 4em 1em;
+    margin: 1em 1em 4em 0;
     max-width: 800px;
     border: 1px solid #99999A;
 }
@@ -287,4 +293,8 @@ img{
 }
 .project-pic:hover {
   opacity: 0.5;
+}*/
+
+/*#numbers {
+  margin-bottom: 70px;
 }*/
