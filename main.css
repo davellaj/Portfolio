@@ -16,7 +16,7 @@ a:hover {
 
 /* Top of the page */
 #top-header {
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 	min-height: 200px;
   padding-right: 5%;
 	display: flex;
@@ -24,6 +24,7 @@ a:hover {
 }
 
 #profile-pic {
+  padding-top: 20px;
   margin-left: 20%;
   width: auto;
   max-width: 150px;
@@ -32,12 +33,10 @@ a:hover {
   border-radius: 50%;
   display: inline;
   z-index: 2;
-  position: fixed;
 }
 #top-header-nav {
 	position: fixed;
   width: 100%;
-  background: #ffffff;
 }
 #top-header-ul {
   list-style: none;

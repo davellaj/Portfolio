@@ -85,36 +85,56 @@ h4 {
   color: #E45F56;
 }
 main {
-  margin-bottom: 2em;
+  padding: 1.5em;
 }
 .main-container {
-  /*width: 100%;*/
-  padding: 3em 2.5em;
+  width: 100%;
+  /*padding: 3em 2.5em;*/
+}
+.main-bd {
+  margin: 0 0 1em 0;
 }
 .section-container {
-  margin-bottom: 2em;
   padding-bottom: 2em;
+  margin-bottom: 2em;
   display: flex;
 }
 .section-l {
   min-width: 12%;
 }
-.profile-objective {
+.section-title {
   font-style: italic;
 }
 .section-r {
-  padding-left: 8em;
-  padding-right: 8em;
+  margin-left: 8em;
+  margin-right: 8em;
+}
+.section-description {
+  max-width: 100%;
 }
 .talent-container {
-  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 .talent {
-  width: 30%;
+  display: flex;
+  flex-direction: column;
+  min-width: 30%;
+  padding-right: 3em;
 }
 
+.talent h2 {
+  margin-bottom: 6px;
+}
+.talent p {
+  line-height: 18px;
+  /*padding-right: 3em;*/
+}
+.experience h4 {
+  position: absolute;
+  top: 0.35em;
+  right: 0;
+}
 /*media screens*/
 /* Extra small devices */
 @media(max-width:544px){
