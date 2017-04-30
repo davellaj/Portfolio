@@ -130,7 +130,7 @@ main {
   line-height: 18px;
   /*padding-right: 3em;*/
 }
-.experience h4 {
+.experience-container h4 {
   position: absolute;
   top: 0.35em;
   right: 0;

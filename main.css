@@ -67,17 +67,22 @@ width: 45%;
 margin: 0px 0px 10px 0px;
 font-weight: 300;
 }
+.more-info a {
+	padding-left: 5px;
+}
 
 #full-stack-developer {
   margin-bottom: 10px;
 }
 
 .scroll-down {
-  min-height: 210px;
+  min-height: 310px;
 	display: flex;
   padding-left: 20%;
 	align-items: flex-end;
 	background-color: #FFD000;
+	/*background: linear-gradient(135deg, #F76B1D 0%, #F76B1D 30%, #ffb631 100%) fixed*/
+
 }
 
 #title-recent-work {
@@ -87,22 +92,25 @@ font-weight: 300;
 
 /* Main Page Projects */
 .projects-wrap {
-	padding-top: 3em;
-  padding-left: 20%;
+	/*padding-top: 3em;*/
+  /*padding-left: 20%;*/
   flex: 1 1 100%;
 }
 .projects {
+  margin-top: -100px;
   height: 100%;
   flex: 1 1 100%;
 }
 .project {
   display: flex;
-  flex: 1 1 100%;
+  /*flex: 1 1 100%;*/
+  justify-content: center;
 }
 .card {
     margin: 1em 1em 4em 0;
     max-width: 800px;
     border: 1px solid #99999A;
+    display: flex;
 }
 .img-container {
     position: relative;
@@ -184,6 +192,7 @@ footer {
 }
 
 /*
+cursor: pointer;
 colors not used
 color: #66666a;
 */
