@@ -39,14 +39,17 @@ a:hover {
 }
 #top-header-nav {
 	position: fixed;
+	background: #ffffff;
   width: 100%;
 }
 #top-header-ul {
   list-style: none;
   display: flex;
-	padding: 20px;
+	padding-top: 20px;
+  padding-right: 20px;
   position: relative;
   float: right;
+  margin-right: 10%;
 }
 .top-header-a {
 	margin: 10px;
