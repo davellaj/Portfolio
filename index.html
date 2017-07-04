@@ -56,46 +56,50 @@
   </section>
 
   <div class="scroll-down">
-      <h2 id="title-recent-work" class="title">Recent Work</h2>
-      <!-- <p id="numbers">Dec '16 - Feb '17</p> -->
-      <!-- <a href="#flashcards" class="down-arrow">&#8964</a> -->
+      <!-- <h2 id="title-recent-work" class="title">Recent Work</h2>
+      <p id="numbers">Dec '16 - Feb '17</p>
+      <a href="#flashcards" class="down-arrow">&#8964</a> -->
   </div>
 
   <main id="main-container">
     <div class="projects-wrap">
-      <div class="projects">
-        <div id="project-1" class="project">
-          <div class="card">
-            <div class="image-contianer">
-              <a href="http://www.family-photos.online/#/" target="_blank">
-                <img class="card-img-top" src="./images/family-page.png" alt="flashCard-pic">
-              </a>
+      <section class="projects-section">
+        <h2 class="projects-title">Portfolio</h2>
+        <div id="project-1" class="project-container">
+          <div class="project-card">
+            <div class="project-card-img">
+                <img src="./images/family-page.png" alt="family-Page-img">
             </div>
-            <div class="card-block">
+            <div class="project-card-content">
               <h2 class="card-title">Family-Page</h2>
-              <div class="project-tech">
+              <p class="card-text">
+                Photo and message sharing app for closed user groups that enables users to share photos with multiple group members, but all comments on posts are private between the sender and logged in user.
+              </p>
+              <p class="card-text">
+                <span>Technologies:</span>
                 <i class="devicon-javascript-plain tech-icon"></i>
                 <i class="devicon-react-original tech-icon"></i>
                 <i class="devicon-mongodb-plain tech-icon"></i>
                 <i class="devicon-nodejs-plain tech-icon"></i>
-              </div>
-              <h3 class="card-text">
-                Photo and message sharing app for closed user groups that enables users to share photos with multiple group members, but all comments on posts are private between the sender and logged in user.
-              </h3>
+                <br />
+                React, Node.js, Express, MongoDB, Mongoose, Jest, Create React App, Heroku
+              </p>
+
               <div class="card-footer">
                 <div class="project-links">
-                <a href="https://github.com/numbergames/family-page" target="_blank">
-                  <button type="button" class="btn-light button-link">View Frontend Code</button>
-                </a>
-                <span>&nbsp&nbsp</span>
-                <a href="https://github.com/davellaj/family-page-server" target="_blank">
-                  <button type="button" class="btn-light button-link">View Backend Code</button>
-                </a>
-                <span>&nbsp&nbsp</span>
-                <a class="button-link" href="http://www.family-photos.online/#/" target="_blank">
-                  <button type="button" class="btn-dark button-link">View Project</button>
-                </a>
-              </div>
+                  <a href="https://github.com/numbergames/family-page" target="_blank">
+                    <button type="button" class="btn-light button-link">Frontend Code</button>
+                  </a>
+                  <!-- <span>&nbsp&nbsp</span> -->
+
+                  <!-- <span>&nbsp&nbsp</span> -->
+                  <a class="button-link" href="http://www.family-photos.online/#/" target="_blank">
+                    <button type="button" class="btn-dark button-link">Demo Project</button>
+                  </a>
+                  <a href="https://github.com/davellaj/family-page-server" target="_blank">
+                    <button type="button" class="btn-light button-link backend-code">Backend Code</button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -194,7 +198,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   </main>
 
@@ -232,3 +236,5 @@
 </body>
 
 </html>
+
+<!-- unused code  -->
