@@ -131,12 +131,15 @@ padding-right: 20%;
     padding-top: 2em;
     padding-bottom: 8em;
     /*border: 1px solid #99999A;*/
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /*display: block;*/
+    /*flex-direction: column;
+    justify-content: center;*/
+    /*align-items: center;*/
 }
+
 .project-card-img {
-    width: 45%;
+    width: 100%;
+    text-align: center;
 }
 .project-card-img img {
     width: 100%;
@@ -144,7 +147,8 @@ padding-right: 20%;
 		box-shadow: 0 0 7px #99999A;
 }
 .project-card-content {
-    width: 47%;
+    width: 100%;
+    padding-top: 1em;
 }
 
 .card-title {
@@ -197,6 +201,33 @@ padding-right: 20%;
 .button-link:hover {
 	background: #FFD000;
 	color: #083045;
+}
+
+/*Media Screens*/
+@media only screen and (min-width: 570px) {
+  .project-card-img img {
+    max-width: 400px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .project-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .project-card-img {
+    width: 45%;
+  }
+  .project-card-img img {
+    max-width: 400px;
+    width: 100%;
+  }
+  .project-card-content {
+    width: 47%;
+    padding-top: 1em;
+  }
 }
 
 /* Reach Out Section on the bottom of Page*/
