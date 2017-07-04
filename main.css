@@ -130,7 +130,7 @@ padding-right: 20%;
 .project-card {
     padding-top: 2em;
     padding-bottom: 8em;
-    border: 1px solid #99999A;
+    /*border: 1px solid #99999A;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -146,9 +146,6 @@ padding-right: 20%;
 .project-card-content {
     width: 47%;
 }
-/*.projects-card-content h2, .projects-card-content p {
-  text-align: left;
-}*/
 
 .card-title {
     margin: 0;
