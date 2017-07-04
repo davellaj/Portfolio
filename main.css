@@ -174,15 +174,14 @@ padding-right: 20%;
 }
 .btn-light {
     color: #083045;
-    /*font-weight: 500;*/
     font-size: 1em;
     background: #ffffff;
     padding: 5px 16px;
     text-decoration: none;
     margin-right: 0.75em;
-    /*min-width: 134px;*/
     border: 2px solid #083045;
 		border-radius: 15px;
+		margin-top: 5px;
 }
 .btn-dark {
     color: #ffffff;
@@ -190,13 +189,9 @@ padding-right: 20%;
     background: #083045;
     padding: 5px 16px;
     text-decoration: none;
-    /*border: none;*/
-    /*min-width: 134px;*/
     border: 2px solid #083045;
     border-radius: 15px;
-}
-.backend-code {
-	margin-top: 5px;
+		margin-top: 5px;
 }
 .button-link:hover {
 	background: #FFD000;
