@@ -235,6 +235,11 @@ a:hover {
 
   .title {
     margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #full-stack-developer {
+    margin-top: 0.5em;
   }
 
   .more-info {
