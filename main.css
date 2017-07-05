@@ -94,7 +94,7 @@ a:hover {
 }
 
 .scroll-down {
-  min-height: 10em;
+  min-height: 12em;
   display: flex;
   background-color: #FFD000;
   /*background: linear-gradient(135deg, #F76B1D 0%, #F76B1D 30%, #ffb631 100%) fixed*/
@@ -102,7 +102,6 @@ a:hover {
 
 
 /* Main Page Projects */
-
 #main-container {
   background: #F7F7F7;
 }
@@ -208,6 +207,26 @@ a:hover {
   color: #083045;
 }
 
+/* Reach Out Section on the bottom of Page*/
+
+footer {
+  min-height: 100px;
+}
+
+#reach-out {
+  /*min-height: 22em;*/
+  padding-top: 4em;
+  padding-bottom: 4em;
+  padding-left: 20%;
+}
+
+#bottom-nav-ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
 
 /*Media Screens*/
 @media only screen and (max-width: 569px) {
@@ -249,8 +268,18 @@ a:hover {
   .scroll-down {
     min-height: 7em;
   }
+
+  /*projects*/
   .project-card {
     padding-bottom: 4em;
+  }
+
+  /*Reach out*/
+  #reach-out {
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -279,27 +308,6 @@ a:hover {
   }
 }
 
-
-/* Reach Out Section on the bottom of Page*/
-
-footer {
-  min-height: 100px;
-}
-
-#reach-out {
-  min-height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 20%;
-}
-
-#bottom-nav-ul {
-  list-style: none;
-  display: flex;
-  padding: 0;
-  justify-content: center;
-}
 
 /*
 cursor: pointer;
