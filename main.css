@@ -227,6 +227,11 @@ a:hover {
   overflow: auto;
 }
 
+.about-me-container p {
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
 .about-me-img {
   padding: 1em 0 1em 1em;
   float: none;
@@ -235,11 +240,6 @@ a:hover {
 .about-me-img img {
   width: 100%;
   max-width: 450px;
-}
-
-.about-me-info {
-  font-size: 1.1em;
-  font-weight: 300;
 }
 
 /* Reach Out Section on the bottom of Page*/
